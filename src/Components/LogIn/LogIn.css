@@ -1,0 +1,72 @@
+.lg-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .lg-left-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lg-book-image {
+    width: 80%;
+    height: auto;
+  }
+  
+  .lg-right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+  align-items: center; 
+    padding: 20px;
+  }
+  
+  .lg-form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .lg-book-form {
+    margin-top: 24px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .lg-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .lg-field-title {
+    display: block;
+    margin-bottom: 5px;
+    text-align: start;
+    font-weight: 500;
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  
+  .lg-input-field {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .lg-submit-btn {
+    padding: 10px 20px;
+    background-color: #FF8343;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 24px;
+  }
+  

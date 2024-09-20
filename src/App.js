@@ -1,24 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import {Main} from './Pages/Main';
+import {AddBookPage} from './Pages/AddBookPage';
+import {RemoveList} from './Pages/RemoveList';
+import {LogInPage} from './Pages/LogInPage';
+import {RegisterPage} from './Pages/RegisterPage';
+import {NavBar} from './Components/NavBar/NavBar'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+      <NavBar/>
+      <div className="main-content">
+            <Routes>
+              <Route path='/' element={<Main />} />
+              <Route path='/add' element={<AddBookPage />} />
+              <Route path='/remove' element={<RemoveList />} />
+              <Route path='/log' element={<LogInPage />} />
+              <Route path='/reg' element={<RegisterPage />} />
+            </Routes>
+          </div>
+      </BrowserRouter>
+</div>
   );
 }
 

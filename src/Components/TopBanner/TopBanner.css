@@ -1,0 +1,17 @@
+.banner {
+    width: 100%;           /* Full-width */
+    height: 400px;          /* Fixed height or adjust as needed */
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;       /* Ensures image doesn't overflow the container */
+    position: relative;
+  }
+  
+  .banner-image {
+    width: 100%;            /* Stretch the image to full container width */
+    height: 100%;           /* Stretch the image to full container height */
+    object-fit: cover;      /* Ensures the image covers the banner without distortion */
+  }
+  

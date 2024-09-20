@@ -1,0 +1,27 @@
+.movie-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 24px;
+  }
+  
+  .movie-item {
+    width: 150px;
+    margin: 12px;
+    text-align: center;
+  }
+  
+  .movie-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-item h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  

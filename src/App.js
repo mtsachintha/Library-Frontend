@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Main} from './Pages/Main';
 import {AddBookPage} from './Pages/AddBookPage';
+import {ProfilePage} from './Pages/ProfilePage';
 import {RemoveList} from './Pages/RemoveList';
 import {LogInPage} from './Pages/LogInPage';
 import {RegisterPage} from './Pages/RegisterPage';
@@ -21,6 +22,7 @@ function App() {
               <Route path='/remove' element={<RemoveList />} />
               <Route path='/log' element={<LogInPage />} />
               <Route path='/reg' element={<RegisterPage />} />
+              <Route path='/profile' element={<ProfilePage/>} />
             </Routes>
           </div>
       </BrowserRouter>

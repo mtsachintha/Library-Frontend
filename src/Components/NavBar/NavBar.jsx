@@ -65,7 +65,7 @@ export const NavBar = () => {
       <div className='nav-login-cart'>
         <Link to={'/cart'}><img src={call} alt='cart' /></Link>
         <p>Tel: +94 11 234 5678</p>
-        <Link to={'/login'}><img src={user} alt='user' /></Link>
+        <Link to={'/profile'}><img src={user} alt='user' /></Link>
       </div>
     </div>
   );

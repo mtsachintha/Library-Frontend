@@ -55,4 +55,17 @@
   .delete-btn:hover {
     background-color: #ff4d4d;
   }
+
+  .message-success {
+    color: green;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .message-error {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
   
